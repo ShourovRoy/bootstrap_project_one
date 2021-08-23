@@ -1,0 +1,17 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+      url("https://images.pexels.com/photos/2924921/pexels-photo-2924921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .navbar{
+      background: rgba(0, 0, 0, 0.5);
+  }
+
+  @media screen and (max-width: 767px){
+      .hero_contents{
+          text-align: center;
+      }
+  }
